@@ -8,9 +8,9 @@ export default function FirstPost() {
       <>
       <Layout>
         <Head>
-          <title>First Post</title>
+          <title>First New Branch Post</title>
         </Head>
-        <h1>First Post</h1>
+        <h1>First New Branch Post</h1>
         <h2>
           <Link href="/">← Back to home</Link>
         </h2>
