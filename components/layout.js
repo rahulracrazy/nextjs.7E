@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import Script from 'next/script';
 import Image from 'next/image';
 import styles from './layout.module.css';
 import utilStyles from '../styles/utils.module.css';
@@ -11,6 +12,7 @@ export default function Layout({ children, home }) {
   return (
     <div className={styles.container}>
       <Head>
+      <Script src="https://nextblog.statuspage.io/embed/script.js"></Script>
         <link rel="icon" href="/favicon.ico" />
         <meta
           name="description"
