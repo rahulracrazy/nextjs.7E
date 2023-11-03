@@ -2,13 +2,15 @@
   "private": true,
   "scripts": {
     "build": "next build",
-    "dev": "next dev",
+    "dev": "NODE_OPTIONS='-r @newrelic/next' next dev",
     "start": "next start"
   },
   "dependencies": {
+    "@newrelic/next": "^0.7.0",
     "cjs": "^0.0.11",
     "date-fns": "^2.30.0",
-    "next": "latest",
+    "newrelic": "^11.4.0",
+    "next": "^14.0.1",
     "react": "18.2.0",
     "react-dom": "18.2.0"
   },
