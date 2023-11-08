@@ -12,7 +12,7 @@ export default function Layout({ children, home }) {
   return (
     <div className={styles.container}>
       <Head>
-      <Script src="https://nextblog.statuspage.io/embed/script.js"></Script>
+      <Script src="https://nextblog.statuspage.io/embed/script.js" />
       // <Script type="text/javascript">
       //   ;window.NREUM||(NREUM={});NREUM.init={distributed_tracing:{enabled:true},privacy:{cookies_enabled:true},ajax:{deny_list:["bam.nr-data.net"]}};
       //   ;NREUM.loader_config={accountID:"4211190",trustKey:"4211190",agentID:"1120248710",licenseKey:"NRJS-cd6e3c704301e7c30d6",applicationID:"1120248710"};
