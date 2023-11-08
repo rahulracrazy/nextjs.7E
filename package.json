@@ -1,9 +1,9 @@
 {
   "private": true,
   "scripts": {
-    "build": "next build",
+    "build": "NODE_OPTIONS='-r @newrelic/next' next build",
     "dev": "NODE_OPTIONS='-r @newrelic/next' next dev",
-    "start": "next start"
+    "start": "NODE_OPTIONS='-r @newrelic/next' next start"
   },
   "dependencies": {
     "@newrelic/next": "^0.7.0",
